@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 2</title>
+    <!--================================BOOSTRAP==================================================-->
+    <link rel="stylesheet" href="./bootstrap-5.0.2/css/bootstrap.min.css">
+    <!--================================CSS LOCAL=======================================================-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--================================CSS TIENICH=======================================================-->
+    <link rel="stylesheet" type="text/css" href="./css/util.min.css">
+    <!--================================ICON BOOSTRAP=====================================================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+        integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Roboto;
+        }
+
+
+        .tim {
+            background-color: blueviolet;
+            width: 100%;
+            height: 268px;
+        }
+
+        .xanh {
+            background-color: rgb(137, 225, 4);
+            width: 100%;
+            height: 268px;
+        }
+
+        .cam {
+            background-color: rgb(255, 148, 27);
+            width: 100%;
+            height: 268px;
+        }
+
+        .do {
+            background-color: rgb(249, 62, 62);
+            width: 100%;
+            height: 268px;
+        }
+
+        .zoom {
+            overflow: hidden;
+        }
+
+        .zoomin {
+            -webkit-transition: all 2s ease;
+            -moz-transition: all 2s ease;
+            -ms-transition: all 2s ease;
+            transition: all 2s ease;
+        }
+
+        .zoomin:hover {
+            transform: scale(1.1);
+        }
+
+        .icon img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .icon {
+            position: absolute;
+            left: 40%;
+            top: 20%;
+        }
+
+        button {
+            color: white !important;
+            position: absolute;
+            width: 130px;
+            left: -70%;
+            top: 110%;
+        }
+        .bg-menu {
+            background-color: #101215;
+        }
+
+        .col-md-tt {
+            flex: 0 0 auto;
+            width: 28.333333%;
+        }
+
+        button i {
+            color: rgba(255, 255, 255, 0.672);
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+    <section>
+        <div class="row">
+
+            
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <img src="./images/ho_chi_minh_city.jpg" class="card-img-top zoomin" style="height:268px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="fs-18">Hồ Chí Minh</b></h5>
+                        <p class="card-text text-center"><span class="text-danger">Hồ Chí Minh, tên khai sinh Nguyễn
+                                Sinh Cung, là một nhà cách mạng và chính khách người Việt Nam.<br>Ngày/nơi sinh: 19 tháng 5,
+                                1890, Cụm di tích Hoàng Trù<br>
+                                Ngày mất: 2 tháng 9, 1969, Hà Nội</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <div class="tim zoomin"></div>
+                        <div class="card-img-top zoomin">
+                            <div class="icon">
+                                <img src="./images/icon_like.png" alt="" srcset="">
+                                <div><button class="btn border-1 border">Hồ Chí Minh...</button></div>
+                            </div>
+
+                        </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hồ Chí Minh</h5>
+
+                        <p class="card-text text-center"><span class="text-danger">Giá vé: 129.000đ</span><span
+                                class="non pl-2"><strike>237.000đ</strike></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <img src="./images/ha_long.jpg" class="card-img-top zoomin" style="height:268px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="fs-18">Hội An</b></h5>
+                        <p class="card-text text-center"><span class="text-danger">Hội An là một thành phố trực thuộc
+                                tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm
+                                những di sản kiến trúc đã có từ hàng trăm năm trước</span></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <div class="xanh zoomin"></div>
+                    <div class="icon">
+                        <img src="./images/icon_smile.png" alt="" srcset="">
+                        <div><button class="btn border-1 border">Hội An...</button></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hội An</h5>
+                        <p class="card-text text-center"><span class="text-danger">Giá vé: 335.000đ</span><span
+                                class="non pl-2"><strike>435.000đ</strike></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
+                        <div class="cam card-img-top zoomin"></div>
+                        <div class="icon">
+                            <img src="./images/icon_love.png" alt="" srcset="">
+                            <div><button class="btn border-1 border">Hà Nội...</button></div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hà Nội</h5>
+                        <p class="card-text text-center"><span class="text-danger">Giá vé: 325.000đ</span><span
+                                class="non pl-2"><strike>455.000đ</strike></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <img src="./images/ha_noi.jpg" class="card-img-top zoomin" style="height:268px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="fs-18">Hà Nội</b></h5>
+                        <p class="card-text text-center"><span class="text-danger">Hà Nội là thủ đô, thành phố trực
+                                thuộc trung ương và là một đô thị loại đặc biệt của Việt Nam. Hà Nội nằm về phía tây bắc
+                                của trung tâm vùng đồng bằng châu thổ sông Hồng</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <div class="do zoomin"></div>
+                    <div class="icon">
+                        <img src="./images/icon_cart.png" alt="" srcset="">
+                        <div><button class="btn border-1 border">Hạ Long...</button></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Vịnh Hạ Long</h5>
+                        <p class="card-text text-center"><span class="text-danger">Giá vé: 525.000đ</span><span
+                                class="non pl-2"><strike>635.000đ</strike></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pb-2">
+                <div class="card zoom" style="height:100%">
+                    <img src="./images/ha_long.jpg" class="card-img-top zoomin" style="height:268px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="fs-18">Hạ Long</b></h5>
+                        <p class="card-text text-center"><span class="text-danger">Vịnh Hạ Long là một vịnh nhỏ thuộc
+                                phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của
+                                thành phố Hạ Long thuộc tỉnh Quảng Ninh</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer>
+        <div class="text-center bg-dark fs-18 p-3">Code By Nguyễn Thành Sơn</div>
+    </footer>
+    </div>
+    <!--================================JQUERY======================================================-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--===============================================================================================-->
+    <script src="./bootstrap-5.0.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
